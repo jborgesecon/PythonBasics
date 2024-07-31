@@ -1,6 +1,8 @@
 import requests
 import cr_db_credentials as cr
- 
+import pandas as pd
+
+
 base_url = "https://api.portaldatransparencia.gov.br/api-de-dados/orgaos-siafi"
 # base_url = "https://api.portaldatransparencia.gov.br/api-de-dados/viagens"
  
@@ -22,6 +24,10 @@ headers = {
 }
  
 response = requests.get(base_url, headers=headers, params=params)
- 
-print(response.text)
- 
+
+
+# print(response.json())
+# get response as pandas dataframe
+
+df = pd.DataFrame(response.json())
+print(df)
