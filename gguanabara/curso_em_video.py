@@ -32,7 +32,7 @@ while True:
             print('Thanks for trying this code!')
             print('\n')
             break
-        
+
         print('\n')
         current_mundo = mg.dict_n1['lvl zero'][nav1-1]
         dv.sepper(current_mundo, '.')

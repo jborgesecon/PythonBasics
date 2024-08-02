@@ -1,0 +1,49 @@
+value,date,localidade_id,localidade_nome,localidade_nivel_id,localidade_nivel_nome,classificacoes_id,classificacoes_nome,categoria,id,variavel,unidade
+0.31,201908,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,355,IPCA15 - Variação mensal,%
+0.19,201909,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,355,IPCA15 - Variação mensal,%
+0.06,201910,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,355,IPCA15 - Variação mensal,%
+0.29,201911,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,355,IPCA15 - Variação mensal,%
+0.88,201912,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,355,IPCA15 - Variação mensal,%
+0.90,202001,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,355,IPCA15 - Variação mensal,%
+-0.13,201908,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,355,IPCA15 - Variação mensal,%
+-0.10,201909,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,355,IPCA15 - Variação mensal,%
+0.18,201910,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,355,IPCA15 - Variação mensal,%
+0.11,201911,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,355,IPCA15 - Variação mensal,%
+0.97,201912,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,355,IPCA15 - Variação mensal,%
+0.47,202001,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,355,IPCA15 - Variação mensal,%
+2.68,201908,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,356,IPCA15 - Variação acumulada no ano,%
+2.88,201909,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,356,IPCA15 - Variação acumulada no ano,%
+2.94,201910,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,356,IPCA15 - Variação acumulada no ano,%
+3.24,201911,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,356,IPCA15 - Variação acumulada no ano,%
+4.15,201912,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,356,IPCA15 - Variação acumulada no ano,%
+0.90,202001,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,356,IPCA15 - Variação acumulada no ano,%
+2.41,201908,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,356,IPCA15 - Variação acumulada no ano,%
+2.31,201909,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,356,IPCA15 - Variação acumulada no ano,%
+2.50,201910,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,356,IPCA15 - Variação acumulada no ano,%
+2.61,201911,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,356,IPCA15 - Variação acumulada no ano,%
+3.61,201912,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,356,IPCA15 - Variação acumulada no ano,%
+0.47,202001,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,356,IPCA15 - Variação acumulada no ano,%
+3.41,201908,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,1120,IPCA15 - Variação acumulada em 12 meses,%
+3.44,201909,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,1120,IPCA15 - Variação acumulada em 12 meses,%
+2.91,201910,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,1120,IPCA15 - Variação acumulada em 12 meses,%
+3.03,201911,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,1120,IPCA15 - Variação acumulada em 12 meses,%
+4.15,201912,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,1120,IPCA15 - Variação acumulada em 12 meses,%
+4.87,202001,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,1120,IPCA15 - Variação acumulada em 12 meses,%
+3.02,201908,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,1120,IPCA15 - Variação acumulada em 12 meses,%
+2.90,201909,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,1120,IPCA15 - Variação acumulada em 12 meses,%
+2.66,201910,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,1120,IPCA15 - Variação acumulada em 12 meses,%
+2.49,201911,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,1120,IPCA15 - Variação acumulada em 12 meses,%
+3.61,201912,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,1120,IPCA15 - Variação acumulada em 12 meses,%
+3.48,202001,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,1120,IPCA15 - Variação acumulada em 12 meses,%
+100.0000,201908,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,357,IPCA15 - Peso mensal,%
+100.0000,201909,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,357,IPCA15 - Peso mensal,%
+100.0000,201910,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,357,IPCA15 - Peso mensal,%
+100.0000,201911,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,357,IPCA15 - Peso mensal,%
+100.0000,201912,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,357,IPCA15 - Peso mensal,%
+100.0000,202001,3501,São Paulo (SP),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,357,IPCA15 - Peso mensal,%
+100.0000,201908,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,357,IPCA15 - Peso mensal,%
+100.0000,201909,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,357,IPCA15 - Peso mensal,%
+100.0000,201910,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,357,IPCA15 - Peso mensal,%
+100.0000,201911,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,357,IPCA15 - Peso mensal,%
+100.0000,201912,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,357,IPCA15 - Peso mensal,%
+100.0000,202001,3301,Rio de Janeiro (RJ),N7,Região Metropolitana,315,"Geral, grupo, subgrupo, item e subitem",Índice geral,357,IPCA15 - Peso mensal,%

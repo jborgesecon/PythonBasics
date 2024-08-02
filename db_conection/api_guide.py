@@ -1,5 +1,5 @@
 import requests
-import cr_db_credentials as cr
+import api_credentials as cr
 import pandas as pd
 
 
@@ -31,3 +31,4 @@ response = requests.get(base_url, headers=headers, params=params)
 
 df = pd.DataFrame(response.json())
 print(df)
+
