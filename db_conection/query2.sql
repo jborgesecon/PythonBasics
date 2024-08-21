@@ -1,1 +1,2 @@
-select * from raw_datasets.dados limit 10;
+select schema_name
+from information_schema.schemata;

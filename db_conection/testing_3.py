@@ -12,14 +12,14 @@ st = cr.cadastro
 st_conn_str = f"cockroachdb://{st['u_name']}:{st['passwd']}@{st['host']}:{st['port']}/{st['db_name']}"
 st_engine = sa.create_engine(st_conn_str)
 
-data = pd.read_csv("db_conection\\dados.csv")
+# data = pd.read_csv("db_conection\\dados.csv")
 
 # create new age based on date_of_birth
-data['date_of_birth'] = pd.to_datetime(data['date_of_birth'])
-data['age'] = dt.datetime.now().year - data['date_of_birth'].dt.year
+# data['date_of_birth'] = pd.to_datetime(data['date_of_birth'])
+# data['age'] = dt.datetime.now().year - data['date_of_birth'].dt.year
 
 
-data.to_sql('dados', st_engine, schema='raw_datasets', if_exists='replace', index=False)
+# data.to_sql('dados2', st_engine, schema='classic', if_exists='replace', index=False)
 
 def read_sql_file(filepath):
     with open(filepath, 'r') as file:
@@ -33,11 +33,11 @@ def read_sql_file(filepath):
 #             result2 = pd.DataFrame(result.fetchall())
 #     return result2
 
-def drop_schema(schema_name):
-    drop_query = f"DROP SCHEMA IF EXISTS {schema_name} CASCADE"
-    with st_engine.connect() as conn:
-        conn.execute(sa.text(drop_query))
-    print(f"Schema {schema_name} dropped.")
+# def drop_schema(schema_name):
+#     drop_query = f"DROP SCHEMA IF EXISTS {schema_name} CASCADE"
+#     with st_engine.connect() as conn:
+#         conn.execute(sa.text(drop_query))
+#     print(f"Schema {schema_name} dropped.")
 
 # drop_schema('raw_datasets')
 query_schema = read_sql_file("db_conection\\query2.sql")
