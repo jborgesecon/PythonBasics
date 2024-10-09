@@ -364,5 +364,70 @@ def even_odd_2():
 
 # e86
 def tbt_matrix():
+    rows = 3
+    cols = 3
+
+    matrix = list()
+    sep = [
+        [], # evens
+        []  # odds
+    ]
+
+    for row in range(rows):
+        n_row = []
+        matrix.append(n_row)
+        for col in range(cols):
+            value1 = dv.intValid(input(f'Type a number for position [{row}, {col}] -> '))
+            matrix[row].append(value1)
+
+    print('\n')
+    # print(15 * '=-',)
+    msg = 'MATRIX'
+    print(f'{msg:-^30}', '\n')
+    # print(15 * '=-', '\n')
+    for row in range(rows):
+        for col in range(cols):
+            print(f'[ {matrix[row][col]} ] ', end='')
+        print('')
+    
+    # print(15 * '=-', '\n')
+    for row in range(rows):
+        for col in range(cols):
+            result = matrix[row][col] % 2
+            if result == 0: # even
+                call = 0
+            else:   # odd
+                call = 1
+            
+            value = matrix[row][col]
+            position = str([row, col])
+            n_sep = [value, position]
+            sep[call].append(n_sep)
+
+    print('\n')
+
+    print(f'The evens are: ')
+    print('\n')
+    total_evens = 0
+    for evens in sep[0]:
+        print(f'value: {evens[0]}; position: {evens[1]}')
+        total_evens+=evens[0]
+    print('\n')
+    print(f'Sum of Evens = {total_evens}')
+    print('\n')
+    print(f'row 1 = {matrix[0]}')
+    print(f'Sum of row 1 = {sum(matrix[0])}')
+    print('\n')
+
+    row3 = 0
+    print(f'col 3 = ', end='')
+    for i in range(len(matrix)):
+        print(f'[{matrix[i][2]}] ', end='')
+        row3+=matrix[i][2]
+    print('')
+    print(f'Sum of colum 3 = {row3}')
+    print('\n')
 
     return
+
+
