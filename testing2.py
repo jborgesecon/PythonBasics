@@ -1,20 +1,15 @@
-user_response = input('Type an expression with parentheses: ')
-parentheses = ('(', ')')
-alter = True
-
-cleaned_response = list()
-for char in user_response:
-    if char in parentheses:
-        cleaned_response.append(char)
-
-if cleaned_response[0] == parentheses[1] or cleaned_response[-1] == parentheses[0]:
-    alter = False
-else:
-    stack = []
+from gguanabara import dataValid as dv
 
 
-if alter:
-    print('balanced')
-else:
-    print('unbalanced')
+pos = [0,1,2]
 
+matrix = [[],[],[]]
+
+for i in pos:
+    for ii in pos:
+        value = dv.intValid(input(f'Type the value for position [{i}, {ii}] -> '))
+        matrix[i].append(value)
+
+print('\n')
+for iii in range(len(matrix)):
+    print(f'[{matrix[iii][0]}] [{matrix[iii][1]}] [{matrix[iii][2]}]')

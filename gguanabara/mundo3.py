@@ -277,5 +277,92 @@ def even_odd_list():
 
 # e83
 def checkBalanced():
+    obj = input('Type an expression with parenthese: ')
+    par = ('(', ')')
+
+    stack = list()
+    balanced = True
+
+    for i in obj:
+        if i == par[0]:
+            stack.append(i)
+        elif i == par[1]:
+            if not stack:
+                balanced = False
+                break
+            else:
+                stack.pop()
     
+    if not stack and balanced:
+        print('Balanced!')
+    else:
+        print('Unbalanced!')
+    
+    return
+
+# # Episode 18 (list of lists)
+
+# e84
+def weigthCheck():
+    people = []
+    length = dv.intValid(input('Type the amount of people to be added: '))
+
+    for i in range(length):
+        while True:
+            u_name = str(input(f'Input the name of the {i + 1}° person: '))
+            if len(u_name) >= 2:
+                break
+            else:
+                print('Type a name with at least 2 characters')
+        u_weigth = dv.floatValid(input(f'Type the weigth of the {i + 1}° person: '))
+
+        to_add = [u_name, u_weigth]
+        people.append(to_add)
+
+    people.sort(key=lambda x: x[1])
+    quant = len(people)
+    heaviest = [people[-1], people[-2]]
+    lightest =[people[0], people[1]]
+
+    print('\n', 30 * '-')
+    print(f'There are {quant} people in the list', '\n')
+    print('The heaviest people are: \n')
+    for ii in heaviest:
+        print(f'-> {ii[0]}: {ii[1]}kg')
+    print('\n')
+    print('The lightest people are: \n')
+    for iii in lightest:
+        print(f'-> {iii[0]}: {iii[1]}kg')
+
+    return
+
+# e85
+def even_odd_2():
+    list_1 = [[],[]]
+    for i in range(7):
+        value = dv.intValid(input(f'Type the {i + 1}° value: '))
+        if value % 2 == 0: # Even, list_1[0]
+            call = 0
+        else: # Odd, list_1[1]
+            call = 1
+        
+        if not list_1[call]:
+            list_1[call].append(value)
+        else:
+            for index, v in enumerate(list_1[call]):
+                if value < v:
+                    list_1[call].insert(index, value)
+                    break
+            else:
+                list_1[call].append(value)
+    
+    print('\n')
+    print('The Even numbers are: ', list_1[0])
+    print('The Odds number are: ', list_1[1])
+
+    return
+
+# e86
+def tbt_matrix():
+
     return

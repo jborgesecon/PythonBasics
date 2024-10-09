@@ -122,7 +122,9 @@ ep_17 = {
 }
 
 ep_18 = {
-    'generic': generic_print
+    'Weigth List (e84)': weigthCheck,
+    'Even x Odd 2 (e85)': even_odd_2,
+    '3 x 3 Matrix (e86)': tbt_matrix
 }
 
 ep_19 = {
