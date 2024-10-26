@@ -125,7 +125,8 @@ ep_18 = {
     'Weigth List (e84)': weigthCheck,
     'Even x Odd 2 (e85)': even_odd_2,
     '3 x 3 Matrix (e86 + e87)': tbt_matrix,
-
+    'Lottery (e88)': lottery_games,
+    'Grades (e89)': grades
 }
 
 ep_19 = {

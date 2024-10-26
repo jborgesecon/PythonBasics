@@ -362,10 +362,10 @@ def even_odd_2():
 
     return
 
-# e86
+# e86/ e87
 def tbt_matrix():
-    rows = 3
-    cols = 3
+    rows = 5
+    cols = 5
 
     matrix = list()
     sep = [
@@ -431,3 +431,25 @@ def tbt_matrix():
     return
 
 
+# e88
+def lottery_games():
+    games = []
+    amount = dv.intValid(input('How many games do you want to generate: '))
+
+    for i in range(amount):
+        n_game = sorted(rd.sample(range(1,61), k=6))
+        games.append(n_game)
+
+
+    print('\n')
+    for ii in games:
+        print(f'{games.index(ii) + 1}° game -> ', ii)
+    print('\n')
+
+    return
+
+
+# e89
+def grades():
+    
+    return
