@@ -15,9 +15,9 @@ for i in range(students):
     name = fake.name()
     print(f"The student's name is {name}")
     print('\n')
-    for ii in range(1,3):
+    for ii in range(2):
         while True:
-            score = dv.floatValid(input(f"Type the {ii}° {name}'s score -> "))
+            score = dv.floatValid(input(f"Type the {ii + 1}° {name}'s score -> "))
             if score >= 0 and score <=10:
                 break
             else:
@@ -27,10 +27,9 @@ for i in range(students):
     student_class.append(adding)
     print('\n')
 
-print(30*'-')
-msg = 'STUDENTS GRADES'
-print(f'{msg:^30}')
-print(30*'-')
+print(30*'=')
+dv.sepper(' CLASS SCORES ', '.')
+print(30*'=')
 print('\n')
 
 grade = [
@@ -43,3 +42,5 @@ print(f'{titles[0]:<}', f'{titles[1]:^}', f'{titles[2]:>}')#, limit=30)
 print(30*'-')
 for std in grade:
     print(f'{grade.index(std):.<30} {std[0]:^7} {np.average(std)}')
+
+range(0, 4, 2)
